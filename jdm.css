@@ -488,6 +488,12 @@ input[type="submit"]:focus {
     border-top: 3px solid #E63946;
 }
 
+.buying-guide {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 600px) {
     .guide-step {
         flex-direction: column;
