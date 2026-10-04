@@ -351,6 +351,16 @@ form label {
     font-weight: bold;
 }
 
+.contact-main {
+    text-align: center;
+}
+
+.contact-main form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
 input,
 textarea,
 select {
