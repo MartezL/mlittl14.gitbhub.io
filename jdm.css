@@ -247,6 +247,46 @@ main a:hover {color: #F5F5F5;}
     border-radius: 5px;
 }
 
+.step-image1 {
+    height: 300px;
+    background-image: url(step1_import_icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #343C4C;
+    border-radius: 8px;
+}
+
+.step-image2 {
+    height: 300px;
+    background-image: url(step2_import_icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #343C4C;
+    border-radius: 8px;
+}
+
+.step-image3 {
+    height: 300px;
+    background-image: url(step3_import_icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #343C4C;
+    border-radius: 8px;
+}
+
+.step-image4 {
+    height: 300px;
+    background-image: url(step4_import_icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #343C4C;
+    border-radius: 8px;
+}
+
 .import-step {
     min-width: 0;
     text-align: center;
