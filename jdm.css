@@ -295,3 +295,159 @@ main a:hover {color: #F5F5F5;}
     }
 
 }
+/* Contact / Ask Us form */
+form {
+    width: 100%;
+    max-width: 30em;
+    margin: 1.5em 0 2em;
+    padding: 1.25em;
+    background-color: #232936;
+    border: 1px solid #343C4C;
+    border-radius: 8px;
+}
+
+form label {
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.65em;
+    margin-bottom: 0.5em;
+    border: 1px solid #AAB4C3;
+    border-radius: 4px;
+    background-color: #12151D;
+    color: #F5F5F5;
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #E63946;
+    border-color: #E63946;
+}
+
+input[type="submit"] {
+    background-color: #E63946;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.75em 1em;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #F5F5F5;
+    color: #12151D;
+}
+
+@media (min-width: 600px) {
+    form {
+        width: 60%;
+        max-width: 30em;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 6em 1fr;
+    }
+
+    form input,
+    form textarea,
+    form select {
+        margin-bottom: 0;
+    }
+
+    input[type="submit"] {
+        grid-column: 2;
+        width: 9em;
+    }
+}
+
+/* Buying Guide */
+.guide-intro {
+    max-width: 850px;
+    margin-bottom: 1.5em;
+}
+
+.guide-intro h2 {
+    margin-bottom: 0.35em;
+}
+
+.buying-steps {
+    max-width: 900px;
+}
+
+.guide-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    background-color: #232936;
+    border: 1px solid #343C4C;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.step-number {
+    flex: 0 0 52px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E63946;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.step-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.45em;
+}
+
+.step-content p {
+    margin-top: 0;
+    line-height: 1.55;
+}
+
+.step-tip {
+    margin-bottom: 0;
+    padding: 10px 12px;
+    background-color: #12151D;
+    border-radius: 5px;
+    color: #AAB4C3;
+}
+
+.step-tip strong {
+    color: #FF7B85;
+}
+
+.guide-help {
+    max-width: 900px;
+    border: 1px solid #343C4C;
+    border-top: 3px solid #E63946;
+}
+
+@media (max-width: 600px) {
+    .guide-step {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .step-number {
+        width: 44px;
+        height: 44px;
+        flex-basis: 44px;
+        font-size: 1.25em;
+    }
+}
