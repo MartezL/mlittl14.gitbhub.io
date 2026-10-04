@@ -3,64 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pacific Trails Resort :: Reservations</title>
-    <link rel="stylesheet" href="pacific.css">
+    <title>Starting JDM :: Ask Us</title>
+    <link rel="stylesheet" href="jdm.css">
+    <meta name="description" content="Contact Starting JDM with questions 
+    about Japanese domestic market cars, importing, buying, and JDM culture.">
 </head>
 <body>
     <div id="wrapper">
 
     <header>
-        <h1><a href="index.html">Pacific Trails Resort</a></h1>
+        <h1><a href="index.html">Starting JDM</a></h1>
+        <p>Cars • Culture • Community</p>
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li> 
-            <li><a href="yurts.html">Yurts</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="buyingguide.html">Buying Guide</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contactus.html">Ask Us</a></li>
         </ul>
     </nav>
-        
+
     <main>
-        <h2>Reservations at Pacific Trails</h2>
+        <h2>Ask Starting JDM</h2>
         <h3>Contact Us Today!</h3>
-            <p>Required fields are marked with an asterisk*.</p>
-            <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
-                <label for="myFName">*First Name:</label>
-                <input type="text" name="myFName" id="myFName" required>
+        <p>Have a question about JDM cars, importing, buying, or car culture? Send it our way.</p>
+        <p>Required fields are marked with an asterisk*.</p>
 
-                <label for="myLName">*Last Name:</label>
-                <input type="text" name="myLName" id="myLName" required>
+        <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+            <label for="myFName">*First Name:</label>
+            <input type="text" name="myFName" id="myFName" required>
 
-                *E-mail: <input type="email" name="Email" id="Email">
+            <label for="myLName">*Last Name:</label>
+            <input type="text" name="myLName" id="myLName" required>
 
-                <label for="phone">Phone: </label>
-                <input type="tel" name="phone" id="phone" maxlength="12">
+            <label for="Email">*E-mail:</label>
+            <input type="email" name="Email" id="Email" required>
 
-                <label for="arrival">Arrival Date:</label>
-                <input type="date" name="arrival" id="arrival">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" maxlength="12">
 
-                <label for="nights">Nights:</label>
-                <input type="number" name="nights" id="nights" min="1" max="14">
+            <label for="car">JDM Car:</label>
+            <input type="text" name="car" id="car" placeholder="Example: Nissan Silvia S15">
 
-                <label for="myComments">*Comments:</label>
-                <textarea name="myComments" id="myComments" rows="2" cols="30"></textarea>
+            <label for="topic">Topic:</label>
+            <select name="topic" id="topic">
+                <option value="buying">Buying a JDM Car</option>
+                <option value="importing">Importing</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="culture">JDM Culture</option>
+                <option value="other">Other</option>
+            </select>
 
-                <input type="submit">
-            </form>
+            <label for="myComments">*Comments:</label>
+            <textarea name="myComments" id="myComments" rows="5" cols="30" required></textarea>
 
-        <div><span class="resort">Pacific Trails Resort</span></div>
-        <div id="contact">12010 Pacific Trails Road</div>
-        <div id="contact">Zephyr, CA 95555</div><br>
-        <div id="contact">888-555-5555</div><br>
+            <input type="submit" value="Send Question">
+        </form>
     </main>
 
     <footer>
-        <div>Copyright &copy; 2022 Pacific Trails Resort</div>
+        <div>Copyright &copy; 2026 Starting JDM</div>
+        <div><a href="index.html">Home</a></div>
         <div><a href="mailto:martez@little.com">Martez Little</a></div>
+        <div>Phone: 555-555-5555</div>
     </footer>
     </div>
-
 </body>
 </html>
